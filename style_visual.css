@@ -1,0 +1,152 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 30;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: whitesmoke;
+}
+
+header {
+  background: darkblue;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 30px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #eee;
+  text-align: center left;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 30;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 19px 20px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+  text-align: center;
+
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.split {
+  height: 60%;
+  width: 40%;
+  position: fixed;
+  z-index: 1;
+  top: 70;
+  overflow-x: hidden;
+  padding-top: 50px;
+  font-size: 14px;
+}
+
+
+.left {
+  left: 0;
+  background-color: whitesmoke;
+}
+
+
+.right {
+  top: 40%;
+  padding: 100px 16px;
+  height: 60%;
+  width: 40%;
+  right: 0;
+  background-color: lightgray;
+}
+
+.container {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: relative;
+}
+
+
+.container img {
+  width: 550px;
+}
+
+.panel {
+  position: relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: relative;
+}
+
+h2 {
+  font-size: 24px;
+  color:black;
+  text-align: relative;
+  padding: 100px 16px;
+}
+
+.container p{
+  font-size: 14px;
+  padding-top: 50px;
+  text-align: absolute;
+}
